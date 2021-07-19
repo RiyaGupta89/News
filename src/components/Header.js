@@ -7,9 +7,8 @@ function Header() {
             <div className="logo">
                 <h1>NewsHub.</h1>
             </div>
-            <div>
-                <input type="text" />
-                <button>Search</button>
+            <div className="icon-container">
+                    <i class="fab fa-2x fa-github"></i>
             </div>
             </div>
         </header>

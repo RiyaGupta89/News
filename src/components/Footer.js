@@ -3,7 +3,7 @@ import "./Footer.css";
 function Footer() {
     return(
         <footer>
-            <p>Riya Gupta &copy; | News App</p>
+            <p>Copyright © 2021 | Riya Gupta | News App</p>
         </footer>
     );
 }

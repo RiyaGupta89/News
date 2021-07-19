@@ -25,3 +25,17 @@
     letter-spacing: 0.7px;
     color: #111;
 }
+.icon-container {
+    width: 150px;
+    text-align: center;
+}
+
+.icon-container i {
+    font-size: 40px;
+    transition: all 0.2s;
+}
+
+.icon-container i:hover {
+    background-color: #111;
+    color: #fff;
+}
