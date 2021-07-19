@@ -125,3 +125,22 @@
     line-height: 1.5;
     padding: 10px 9px;
 }
+
+@media (max-width: 1290px) {
+    .main,
+    .tesla-main {
+        padding: 0 40px;
+    }
+}
+
+@media (max-width: 830px) {
+    .card-container {
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 410px) {
+    .tesla-main {
+        padding: 0 10px;
+    }
+}

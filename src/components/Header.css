@@ -39,3 +39,16 @@
 .icon-container i:hover {
     color: gray;
 }
+
+@media (max-width: 1290px) {
+    .header {
+        padding: 0 40px;
+    }
+}
+
+
+@media (max-width: 410px) {
+    .icon-container {
+        width: 50px;
+    }
+}
