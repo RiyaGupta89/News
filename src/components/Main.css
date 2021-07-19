@@ -1,0 +1,29 @@
+.main {
+    background-color: rgb(252, 252, 252);
+}
+
+.main-heading {
+    padding: 30px 0;
+    font-size: 26px;
+    color: #111;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 450px;
+    height: 600px;
+}
+
+.card .img {
+    width: 450px; 
+    height: 270px;
+}
+
+.card .img img {
+    height: 100%;
+    width: 100%;
+}
