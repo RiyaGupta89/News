@@ -1,6 +1,10 @@
+import "./Footer.css";
+
 function Footer() {
     return(
-        <p>Riya Gupta &copy; | News App</p>
+        <footer>
+            <p>Riya Gupta &copy; | News App</p>
+        </footer>
     );
 }
 
