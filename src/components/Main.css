@@ -2,6 +2,11 @@
     background-color: rgb(252, 252, 252);
 }
 
+.tesla-main {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
 .main-heading {
     padding: 30px 0;
     font-size: 26px;
@@ -11,19 +16,91 @@
 .card-container {
     display: flex;
     flex-wrap: wrap;
+    max-width: 1250px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.tesla-container {
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding: 20px;
+}
+
+.tesla-heading {
+    border-top: 1px solid rgb(214, 214, 214);
+    padding-top: 30px;
+}
+
+.tesla-container::-webkit-scrollbar {
+    display: none;
 }
 
 .card {
-    width: 450px;
-    height: 600px;
+    width: 370px;
+    height: 420px;
+    background-color: #fff;
+    box-shadow: 2px 3px 9px rgba(0, 0, 0, 0.8);
+    margin-bottom: 70px;
+    overflow: hidden;
 }
 
+.card1 {
+    width: 500px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.card1 .image {
+    width: 140px;
+    height: 100px;
+}
+
+.info {
+    width:360px;
+}
+
+.info h3 {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.info p {
+    font-size: 13px;
+    color: gray;
+}
+
+.image img {
+    height: 100%;
+    width: 100%;
+}
+
+
 .card .img {
-    width: 450px; 
-    height: 270px;
+    width: 370px; 
+    height: 180px;
 }
 
 .card .img img {
     height: 100%;
     width: 100%;
+}
+
+.text {
+    padding: 13px 9px;
+}
+
+.text h3 {
+    font-weight: 300;
+    color: black;
+    font-size: 22px;
+}
+
+.text p {
+    color: rgb(138, 138, 138);
+    font-size: 13px;
+    line-height: 1.5;
+    padding: 10px 9px;
 }
