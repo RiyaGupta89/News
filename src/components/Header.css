@@ -33,9 +33,9 @@
 .icon-container i {
     font-size: 40px;
     transition: all 0.2s;
+    color: #111;
 }
 
 .icon-container i:hover {
-    background-color: #111;
-    color: #fff;
+    color: gray;
 }

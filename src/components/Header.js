@@ -8,7 +8,9 @@ function Header() {
                 <h1>NewsHub.</h1>
             </div>
             <div className="icon-container">
-                    <i class="fab fa-2x fa-github"></i>
+                <a href="https://github.com/RiyaGupta89">
+                        <i class="fab fa-2x fa-github"></i>
+                </a>
             </div>
             </div>
         </header>
